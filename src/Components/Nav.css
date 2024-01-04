@@ -1,0 +1,22 @@
+.logo > img{
+    width: 50px;
+    object-fit: contain;
+}
+.padding-class{
+    padding-inline: 30px;
+}
+.Nav-cus{
+    margin-left: 20px;
+    color: black;
+}
+.btn-cus{
+    padding-inline: 20px;
+    padding-block: 8px;
+}
+.navbar-toggler{
+    border: none;
+}
+.Nav-cus{
+    margin: 0;
+    padding-block: 10px;
+}

@@ -1,0 +1,200 @@
+/* .section-padding{
+    padding-block: 80px;
+} */
+.hero{
+    width: 100%;
+    max-height: 600px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.hero-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+.title-slack-bu h1{
+    font-size: 55px;
+    font-weight: 200;
+}
+.title-slack-bu{
+    position: relative;
+}
+.slack-bu{
+    width: 100px; 
+    height: 70px;
+    position: absolute;
+    left: 370px;
+    top: 40PX;
+    bottom: AUTO;
+    right: 0px;
+    
+}
+.slack-bu img{
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
+}
+.hero-content h3{
+    margin-top: 10px;
+    font-size: 40px;
+    font-weight: 700;
+    color:black;
+}
+.hero-content p{
+    font-size: 13px;
+    margin: 0;
+    color: #FFCA23;
+    padding-inline: 70px;
+}
+.hero-content{
+    position: relative;
+}
+.shade-hero{
+    position: absolute;
+    width: 470px;
+    top: -100px;
+    bottom: auto;
+    left: auto;
+    right: 20px;
+}
+.shade-hero img{
+    width: 100%;
+
+}
+.main-para-btn{
+    padding-block: 20px;
+    /* margin-left: 350px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+}
+.main-para-btn p{
+    color: #838383;
+    font-size: 15px;
+}
+.btn-main{
+    margin-top: 60px;
+}
+.btn-main a{
+    text-decoration: none;
+    padding: 10px 30px;
+    background-color: black;
+    color: white;
+    border-radius:8px ;
+}
+.star-hero{
+    position: absolute;
+    top:90px;
+    left: auto;
+    right: 500px;
+    bottom: 0;
+    width: 40px;
+
+}
+.star-hero img{
+    width: 100%;
+}
+.hero-img{
+    position: absolute;
+    width: 400px;
+    right: 0;
+    top: 80px;
+    bottom: 0px;
+}
+.hero-img img{
+    width: 100%;
+}
+.hero-img img:first-child{
+    display: none;
+}
+@media  (max-width: 767px)  {
+.hero-img{
+    position: static;
+    width: 80%;
+}
+.hero-img{
+    width: 100%;
+    display: flex;
+    justify-content: center !important; 
+    align-items: center !important;
+}
+.hero-img img:last-child{
+    display: none;
+}
+.hero-img img:first-child {
+    margin-top: 30px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.slack-bu{
+    display: none;
+}
+.main-para-btn p{
+    padding: 0;
+}
+.title-slack-bu h1 {
+    font-size: 35px;
+}
+.btn-main {
+    margin-top: 25px;
+}
+.hero-content p {
+    font-size: 10px;
+}
+.hero-content h3 {
+    font-size: 30px;
+}
+.main-para-btn p {
+    font-size: 13px;
+}
+    }
+    @media (min-width :768px) and (max-width : 991px){
+        .hero-img{
+            position: static;
+            width: 80%;
+        }
+        .hero-img{
+            width: 100%;
+            display: flex !important;
+            justify-content: center !important; 
+            align-items: center !important;
+        }
+        .hero-img img:last-child{
+            display: none;
+        }
+        .hero-img img:first-child {
+            margin-top: 30px;
+            display: flex;
+            text-align: center;
+            justify-content: center;
+        } 
+    
+        .main-para-btn p{
+            padding: 0px;
+        }
+  
+    }
+    @media (min-width : 992px) and (max-width : 1199px){
+    .hero-img {
+    width: 270px;
+    top: 160px;
+}
+    }
+@media (min-width : 1200px) and (max-width : 1400px){
+
+.hero-img {
+    position: absolute;
+    width: 320px;
+    right: 0;
+    top: 90px;
+    bottom: 0px;
+}
+}
+   

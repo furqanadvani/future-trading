@@ -1,0 +1,156 @@
+.section-padding{
+    padding-block: 70px;
+}
+.react-calendar{
+    border: none !important;
+    width: 100% !important;
+    cursor: pointer;
+    
+}
+.react-calendar__navigation__label__labelText--from{
+    font-size: 15px;
+}
+.react-calendar__month-view__weekdays__weekday{
+    font-size: 13px;
+    color: #838383;
+    text-decoration: none;
+    border: none;
+}
+abbr[title]{
+    text-decoration: none;
+    font-size: 11px;
+    font-weight: 500;
+}
+.react-calendar__month-view__days__day--weekend{
+    color: black;
+}
+.react-calendar__tile--active{
+    background-color: #ffcc234f;
+    color: #FFCA23;
+    border-radius: 70px;
+}
+.react-calendar__tile--now{
+    background-color: #ffcc234f;
+    border-radius: 50px;
+}
+.react-calendar__tile--active:enabled:hover, .react-calendar__tile--active:enabled:focus{
+    background-color: #ffcc234f;
+    color: #FFCA23;
+    border-radius: 50px;
+}
+.react-calendar__tile{
+    font-size: 11PX;
+    font-weight: 300;
+}
+.calendar-main{
+    padding: 20px;
+    background-color: white;
+    width: 700px;
+    height: 400px;
+    background: #fff;
+    display: flex;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 10px 56px -8px rgba(235, 235, 235, 0.70);
+}
+.rideside-header h4{
+    font-size: 14px;
+    font-weight: 600;
+}
+.pft-logo{
+    width: 100px;
+}
+.pft-logo img{
+    width: 90px;
+    height: auto;
+    object-fit: contain;
+}
+.heading-pft{
+    margin: 0px;
+    padding-top: 10px;
+}
+.heading-pft h5{
+    font-size: 16px;
+    font-weight: 700;
+}
+.Prosperity-heading h4{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.pro-content p{
+    color: #838383;
+    font-size: 13px;
+
+}
+.left-side-main{
+    border-right: 1px solid #e4e4e49f;
+    padding-right: 20px;
+    
+}
+.left-side-main hr{
+    opacity: 0.6;
+    color: #E4E4E4;
+}
+.pro-btn{
+    margin-top: 30px;
+}
+.pro-btn a{
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+.rideside-drop select{
+    border: none;
+    font-size: 13px;
+    color: #838383;
+}
+.rideside-drop{
+    margin-top: 20px;
+    padding-top: 10px;
+}
+.react-calendar__tile:hover{
+}
+.react-calendar__tile:hover{
+    background-color: #ffcc234c !important;
+    border-radius: 100%;
+    color: #FFCA23;
+
+}
+
+
+@media (max-width: 767px)  {
+    .calendar-main{
+        width: 100%;
+        height: auto;
+    }
+    .left-side-main{
+        border : none;
+        margin-bottom: 20px;
+    }
+    .react-calendar{
+        text-align: center;
+    }
+    hr{
+        padding-bottom: 10px;
+    }
+    .Prosperity-heading h4 {
+        font-size: 18px;
+        margin-bottom: 20px;
+    }
+    .rideside-header{
+        padding-block: 20px;
+    }
+    .rideside-drop{
+        padding-block: 20px;
+    }
+    .pro-btn{
+        font-size: medium;
+    }
+    }
+    @media (min-width :768px) and (max-width : 991px){
+  
+    }
+    @media (min-width : 992px) and (max-width : 1199px){
+    
+    }

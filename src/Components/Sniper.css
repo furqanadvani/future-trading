@@ -1,0 +1,120 @@
+.section-padding{
+    padding-block: 70px;
+}
+.slack-sniper {
+    width: 90px ;
+    position: absolute ;
+    left: 180px;
+    top: 40px ;
+    bottom: auto ;
+    right: auto ;
+}
+
+.title-slack-sniper{
+    position: relative;
+}
+.title-slack-sniper > h1{
+    font-size: 35px;
+    font-weight: 400;
+}
+.section-padding{
+    padding-block: 60px;
+}
+.sniper-img{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+
+}
+.slack-sniper > img{
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
+}
+.sniper-img img{
+    width: 100%;
+    height: 100%;
+}
+.sniper-content  p{
+    padding-block: 40px;
+    font-size: 14px;
+    color: #838383;
+}
+.icon-content-sniper{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+    .icon-sniper  {
+        width: 20px ;
+        height: 20px ;
+        border-radius: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        /* height: 25px; */
+        background-color: black;
+        object-fit: contain;
+        padding: 10px;
+    }
+.contnt p{
+    font-size: 12px;
+    color: #838383;
+}
+.sniper-list{
+    padding-block: 20px;
+}
+.sniper-btn{
+    padding-top: 30px;
+    text-align: left;
+}
+.sniper-btn a{
+    text-decoration: none;
+    padding: 10px 40px;
+    background-color: black;
+    color: aliceblue;
+    border-radius: 8px;
+}
+.sniper-value h1{
+    font-size: 35px;
+    font-weight: 700;
+}
+
+
+
+@media  (max-width: 767px)  {
+.sniper-img{
+    padding-block: 30px;
+}
+.title-slack-sniper h1 {
+    font-size: 30px;
+    font-weight: 400;
+}
+.bold-text{
+    font-weight: 700;
+}
+.sniper-content p {
+    padding-block: 30px;
+    font-size: 13px;
+    color: #838383;
+}
+.sniper-value h1 {
+
+    font-size: 30px;
+    font-weight: 700;
+}
+.content-sniper p{
+    font-size: 12px;
+}
+
+}
+
+@media (min-width :768px) and (max-width : 991px){
+    
+}
+@media (min-width : 992px) and (max-width : 1199px){
+    
+}
