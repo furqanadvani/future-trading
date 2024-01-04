@@ -44,9 +44,9 @@ useEffect(() => {
                               <h5>PFT Admin</h5>
                             </div>
                           </div>
+                          <hr />
                           <div class="btn-group btn-group-toggle" data-toggle="buttons">
   
-                          <hr />
                           <div className='Prosperity'>
                             <div className='Prosperity-heading'>
                               <h4>Prosperity Trading Meeting</h4>
