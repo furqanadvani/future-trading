@@ -18,7 +18,7 @@
     font-weight: 400;
 }
 .section-padding{
-    padding-block: 60px;
+    padding-block: 70px;
 }
 .sniper-img{
     width: 100%;
@@ -86,8 +86,11 @@
 
 
 @media  (max-width: 767px)  {
+    .section-padding{
+        padding-block: 50px !important;
+    }
 .sniper-img{
-    padding-block: 30px;
+    padding-bottom: 30px;
 }
 .title-slack-sniper h1 {
     font-size: 30px;

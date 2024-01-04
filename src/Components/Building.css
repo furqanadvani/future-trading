@@ -114,6 +114,15 @@
     display: none;
 }
 @media  (max-width: 767px)  {
+    .hero-img{
+        height: auto;
+    }
+    p{
+        font-size: 13px;
+    }
+    .hero{
+        max-height: auto;
+    }
 .hero-img{
     position: static;
     width: 80%;
@@ -146,7 +155,7 @@
     margin-top: 25px;
 }
 .hero-content p {
-    font-size: 10px;
+    font-size: 13px;
 }
 .hero-content h3 {
     font-size: 30px;

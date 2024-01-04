@@ -32,7 +32,7 @@
     object-fit: contain;
     display: flex;
     justify-content: center;
-    margin-block: 40px
+    margin-bottom: 40px;
 }
 .inquiry-img img{
     width: 460px;
@@ -92,7 +92,10 @@ input:internal-autofill-selected {
 .msg{
     margin-top: 10px;
 }
-@media  (min-width: 320px) and (max-width: 767px)  {
+@media  (max-width: 767px)  {
+    p{
+        font-size: 13px !important;
+    }
 
     .inquiry-header {
         margin-bottom: 30px;

@@ -18,6 +18,7 @@ function Trading() {
         <div className='star-page'>
             <img src={star} alt=''/>
         </div>
+        </div>
             <div class="title-slack-kit d-flex justify-content-center align-items-center">
                  {/* <div class="shade-kit">
                     <img src={shadetitle} alt="" />
@@ -28,12 +29,18 @@ function Trading() {
                 <h1 class="m-0">Our <span class="bold-text">Trading</span> Community</h1>
             </div>
 
+
+<div className='row justify-content-center' >
+
 <div className='col-md-4 col-lg-4 col-sm-12'>
 
 
             <div class="monthly-card d-flex justify-content-center align-items-center">
 
             <div class="Monthly ">
+                <div className='monthly-header'>
+
+                
                 <div class="daimond-heading">
                     <div class="daimond">
                         <img src={daimond} class="img-fluid" alt=""/>
@@ -44,6 +51,7 @@ function Trading() {
                 </div>
                 <div class="mothly-value">
                     <h4 class="m-0"><span class="value">$295 </span> / Month</h4>
+                </div>
                 </div>
                 <div class="monthly-content">
                     <div class="icon-content">
@@ -114,6 +122,7 @@ function Trading() {
             </div>
         </div>
 </div>
+</div>
 
 
 
@@ -121,7 +130,6 @@ function Trading() {
 
          </div> 
     </div>
-</div>
   )
 }
 
