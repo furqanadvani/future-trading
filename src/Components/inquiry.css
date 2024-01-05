@@ -6,7 +6,7 @@
     margin-bottom: 40px;
 }
 .inquiry-header h3{
-    font-size: 35px;
+    font-size: 40px;
 
 }
 
@@ -21,6 +21,7 @@
 }
 .inquiry-content input{
     padding: 10px;
+    min-height: 52px;
     border: 1px solid  #E4E4E4;
 
 }
@@ -32,10 +33,11 @@
     object-fit: contain;
     display: flex;
     justify-content: center;
+    align-items: center;
     margin-bottom: 40px;
 }
 .inquiry-img img{
-    width: 460px;
+    width: 520px;
     height: auto;
     object-fit: contain;
 }
@@ -44,6 +46,7 @@
 }
 .text-section textarea{
     border: 1px solid #E4E4E4;
+    padding: 15px;
 }
 .text-section textarea::placeholder {
     color: #bdbdbd8d;
@@ -52,12 +55,13 @@
     padding-top: 30px;
     text-align: center;
 }
-.inquiry-btn a{
+.inquiry-btn > button{
     text-decoration: none;
     padding: 10px 50px;
     background-color: black;
     color: aliceblue;
     border-radius: 8px;
+    border: none;
 }
 .inquiry-content input{
     margin-bottom: 1REM;

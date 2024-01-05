@@ -2,23 +2,17 @@
     padding-block: 70px;
 }
 .test-heading h1{
-    font-size: 35px;
+    font-size: 40px;
 }
 .test-heading{
     margin-bottom:40px ;
 }
-.card-small{
-    /* width: 80% !important; */
-    margin-left: 110px !important;
-    /* align-items: end !important; */
-}
+
 .test-card{
-    width: 430px;
-    /* height: 224px; */
-    flex-shrink: 0;
     border: 1px solid #e4e4e487;
     border-radius: 20px;
     padding: 20px;
+    cursor: pointer;
 }
 .test-card p{
     font-size: 14px;
@@ -40,9 +34,8 @@
 .card-img img{
     width: 50px;
     object-fit: contain;
-
-    /* height: auto; */
 }
+
 
 
 @media  (max-width: 767px)  {

@@ -61,7 +61,7 @@ function Trading() {
                         <div class="icon-mon">
                         <i><FontAwesomeIcon size='sm' icon={faCheck} style={{color:"#ffffff"}}/></i> 
                         </div>
-                        <div class="contnt">
+                        <div class="contnt-mon">
                             <p class="m-0">2 weeks FREE with first month subscription!</p>
                         </div>
                     </div>
@@ -69,7 +69,7 @@ function Trading() {
                         <div class="icon-mon">
                         <i><FontAwesomeIcon size='sm' icon={faCheck} style={{color:"#ffffff"}}/></i> 
                         </div>
-                        <div class="contnt">
+                        <div class="contnt-mon">
                             <p class="m-0">Access to premium discord server (signals)</p>
                         </div>
                     </div>
@@ -80,7 +80,7 @@ function Trading() {
                          <div class="icon-mon">
                         <i><FontAwesomeIcon size='sm' icon={faCheck} style={{color:"#ffffff"}}/></i> 
                         </div>
-                        <div class="contnt">
+                        <div class="contnt-mon">
                             <p class="m-0">1 Month mentorship included</p>
                         </div>
                     </div>
@@ -91,7 +91,7 @@ function Trading() {
                          <div class="icon-mon">
                         <i><FontAwesomeIcon size='sm' icon={faCheck} style={{color:"#ffffff"}}/></i> 
                         </div>
-                        <div class="contnt">
+                        <div class="contnt-mon">
                             <p class="m-0">1 single psychology session included</p>
                         </div>
                     </div>
@@ -102,7 +102,7 @@ function Trading() {
 
                         </div>
                         
-                        <div class="contnt">
+                        <div class="contnt-mon">
                             <p class="m-0">Weekly education sessions (Monday/Wednesday)</p>
                         </div>
                     </div>
@@ -111,12 +111,12 @@ function Trading() {
                         <i><FontAwesomeIcon size='sm' icon={faCheck} style={{color:"#ffffff"}}/></i> 
                         </div>
                          
-                        <div class="contnt">
+                        <div class="contnt-mon">
                             <p class="m-0">Prosperity Sniper Software preview session</p>
                         </div>
                     </div>
                     <div class="monthly-btn">
-                        <a href="#">Join Now</a>
+                        <button>Join Now</button>
                     </div>
                 </div>
             </div>

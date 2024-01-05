@@ -1,12 +1,12 @@
 .logo > img{
-    width: 50px;
+    width: 60px;
     object-fit: contain;
 }
 .padding-class{
-    padding-inline: 30px;
+    /* padding-inline: 30px; */
 }
 .Nav-cus{
-    margin-left: 20px;
+    margin-left: 30px;
     color: black;
 }
 .btn-cus{
@@ -19,4 +19,5 @@
 .Nav-cus{
     margin: 0;
     padding-block: 10px;
+    margin-left: 20px;
 }

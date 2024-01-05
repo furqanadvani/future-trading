@@ -7,34 +7,28 @@
   }
   
   .faq-item {
-    /* background-color: #fff; */
     margin-bottom: 16px;
     border-radius: 8px;
-    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
     cursor: pointer;
     transition: background-color 0.3s ease;
   }
-  
-  .faq-item:hover {
-    /* background-color: #f9f9f9; */
-  }
-  
   .question {
     padding: 16px 0px;
     font-weight: 400;
+    font-size: 17px;
   }
   
   .answer {
     padding: 0 0px 16px 0px;
     display: block;
-    font-size: 14px;
+    font-size: 15px;
     color: #838383;
   }
   .faq-heading{
     margin-bottom: 40px;
   }
   .faq-heading h1{
-    font-size: 35px;
+    font-size: 40px;
   }
   .disclaimer{
     text-align: center;

@@ -1,6 +1,6 @@
 import React from 'react'
 import './Building.css'
-import shade from '../Assets/Ellipse 2.png'
+import shade from '../Assets/title_shade.png'
 import lap from '../Assets/Group 1000004793.png'
 import slack from '../Assets/Vector 32 (Stroke).png'
 import star from '../Assets/Star 12.png'
@@ -36,35 +36,21 @@ function Building() {
                        
                             </div>
                             <div class="main-para-btn">
-
                                 <p class="" >Your personalized community for trading futures. We hold your hand every step
                                     of the way, no questions go unanswered. Our program has helped many traders with entry
-                                    and exit strategies in these volatile markets.</p>
-
-
-                                    <div class="btn-main">
-                                        <a href="">Get Started</a>
-                                    </div>
-
-
+                                    and exit strategies in these volatile markets.
+                                </p>
+                                <div class="btn-main">
+                                    <button>Get Started</button>
                                 </div>
-
-                </div>
-            </div>
-
-
+                        </div>
+                        </div>
                     </div>
+            </div>
                     <div class="hero-img col-12 col-sm-12">
                         <img src={laptopfull} className='img-fuild full-laptop' alt="laptopimg" />
                         <img src={lap} className='img-fluid' alt="" />
                     </div>
-
-
-
-
-                {/* <!-- <div class=" col-12 col-lg-4 col-md-4 col-sm-12   ">
-
-                </div> --> */}
         </div>
     </div>
 

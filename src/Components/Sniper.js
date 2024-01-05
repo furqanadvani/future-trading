@@ -78,7 +78,7 @@ function Sniper() {
                         </div>
                     </div>
                     <div class="sniper-btn">
-                        <a href="#">Join Now</a>
+                        <button typeof='submit'>Join Now</button>
                     </div>
                 </div>
             </div>

@@ -38,7 +38,7 @@
 }
 .sniper-content  p{
     padding-block: 40px;
-    font-size: 14px;
+    font-size: 18px;
     color: #838383;
 }
 .icon-content-sniper{
@@ -49,8 +49,8 @@
     margin-bottom: 10px;
 }
     .icon-sniper  {
-        width: 20px ;
-        height: 20px ;
+        width: 24px ;
+        height: 24px ;
         border-radius: 50px;
         display: flex;
         align-items: center;
@@ -71,12 +71,14 @@
     padding-top: 30px;
     text-align: left;
 }
-.sniper-btn a{
+.sniper-btn > button{
     text-decoration: none;
     padding: 10px 40px;
     background-color: black;
     color: aliceblue;
     border-radius: 8px;
+    border: none;
+    box-shadow: none;
 }
 .sniper-value h1{
     font-size: 35px;

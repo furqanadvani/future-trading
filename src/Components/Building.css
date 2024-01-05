@@ -18,7 +18,7 @@
     flex-direction: column;
 }
 .title-slack-bu h1{
-    font-size: 55px;
+    font-size: 60px;
     font-weight: 200;
 }
 .title-slack-bu{
@@ -32,7 +32,7 @@
     top: 40PX;
     bottom: AUTO;
     right: 0px;
-    
+    z-index: -1;
 }
 .slack-bu img{
     object-fit: contain;
@@ -46,10 +46,9 @@
     color:black;
 }
 .hero-content p{
-    font-size: 13px;
+    font-size: 16px;
     margin: 0;
     color: #FFCA23;
-    padding-inline: 70px;
 }
 .hero-content{
     position: relative;
@@ -61,6 +60,7 @@
     bottom: auto;
     left: auto;
     right: 20px;
+    z-index: -1;
 }
 .shade-hero img{
     width: 100%;
@@ -76,14 +76,15 @@
 }
 .main-para-btn p{
     color: #838383;
-    font-size: 15px;
+    font-size: 16px;
 }
 .btn-main{
     margin-top: 60px;
 }
-.btn-main a{
+.btn-main > button{
+    border: none;
     text-decoration: none;
-    padding: 10px 30px;
+    padding: 10px 40px;
     background-color: black;
     color: white;
     border-radius:8px ;

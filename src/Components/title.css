@@ -1,0 +1,29 @@
+.title-wth-shade {
+    position: relative;
+    margin-top: 40px;
+}
+.title > h1{
+    font-size: 40px;
+    margin: 0;
+    font-weight: 300;
+}
+.title > h1 > .bold{
+    font-weight: 600;
+}
+
+.shade-slack  > .shade{
+    width: 140px;
+    position: absolute;
+    top: -30px;
+    left: 50px;
+    right: auto;
+    bottom: 0;
+    z-index: -1;
+}
+.shade-slack > .slack{
+    width: 100px;
+    position: absolute;
+    top: 60px;
+    right: auto;
+    left: 110px;
+}

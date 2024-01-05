@@ -5,7 +5,7 @@ export const InquirySchema = Yup.object().shape({
     lastname: Yup.string().required("Please Enter Lastname !"),
     email: Yup.string().email().required("Please Enter Your EmailAdress !"),
     message: Yup.string().required("Please Enter Your Message !"),
-    country: Yup.string().required('Country is required').oneOf([ '1 pakistan' , 'UAE' , 'USA'], 'Invalid country'),
+    country: Yup.string().required('Country is required').oneOf([ 'pakistan' , 'UAE' , 'USA'], 'Invalid country'),
     interest : Yup.string().required("Interested in is required !"),
 });
 

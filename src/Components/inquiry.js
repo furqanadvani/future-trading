@@ -52,14 +52,15 @@ const { values, errors, touched, handleChange, handleSubmit, setFieldTouched } =
   return (
     <div class="inquiry section-padding">
         <div class="container">
-            <div class="row">
+            <div class="row d-flex justify-content-center align-items-center">
                 <div class="col-md-6">
                     <div class="inquiry-img">
                         <img src={inquiry} alt="" />
                     </div>
                 </div>
                 <div class="col-md-6">
-<Formik onSubmit={handleSubmit} validateOnChange={true}>
+
+            <Formik onSubmit={handleSubmit} validateOnChange={true}>
 
                     <div class="inquiry-content">
 
@@ -135,7 +136,7 @@ const { values, errors, touched, handleChange, handleSubmit, setFieldTouched } =
                                        <select class="form-select" 
                                        value={values.country}
                                        onChange={handleChange}
-                                       onBlur={ ()=> setFieldTouched}
+                                       onBlur={ ()=> setFieldTouched('country' , true , true)}
                                        name='country'
                                        aria-label="Default select example">
                                         <option value="" selected>Select Country</option>
@@ -156,9 +157,9 @@ const { values, errors, touched, handleChange, handleSubmit, setFieldTouched } =
                                     onBlur={ () => setFieldTouched('interest' , true , true)}
                                      aria-label="Default select example">
                                      <option selected>Discord</option>
-                                     <option value="1">One</option>
-                                     <option value="2">Two</option>
-                                     <option value="3">Three</option>
+                                     <option value="Future-Trading">Future Trading</option>
+                                     <option value="Sort-Tream2">Sort Tream</option>
+                                     <option value="Long-Tream3">Long Tream</option>
                                    </select>
                                    {errors.interest && touched.interest ? (
                                     <p className='p_msg'>
@@ -172,14 +173,14 @@ const { values, errors, touched, handleChange, handleSubmit, setFieldTouched } =
                            
                     
                     <div class="text-section">
-                        <label for="exampleFormControlTextarea1" class="form-label">Message</label>
+                        <label for="exampleFormControlTextarea1" class="form-label">Message*</label>
                         <textarea class="form-control" 
                         name='message'
                         value={values.message}
                         onChange={handleChange}
                         onBlur={ () => setFieldTouched('message' , true , true)}
                         placeholder="Write message here..."
-                            id="exampleFormControlTextarea1" rows="3"></textarea>
+                            id="exampleFormControlTextarea1" rows="5"></textarea>
                             {errors.message && touched.message ? (
                                 <p className='p_msg msg'>
                                 {errors.message}
@@ -189,7 +190,7 @@ const { values, errors, touched, handleChange, handleSubmit, setFieldTouched } =
                     </div>
                     <div class="inquiry-btn">
                     {/* <button type="submit" onClick={handleSubmit}>Submit</button> */}
-                        <a href="*" type="Submit" onClick={handleSubmit}>Submit</a>
+                        <button type="Submit" onClick={handleSubmit}>Submit</button>
                        </div>
                     {/* </Form> */}
 

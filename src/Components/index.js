@@ -9,12 +9,13 @@ import FAQ from './faq'
 import Calendar1 from './calendar'
 import Building from './Building'
 import FooterEnd from './footer'
+import Title from './title'
 
 function Components() {
   return (
     <div>
       <Header />
-      <Building />/
+      <Building />
       <Online />
       <Sniper />
       <Trading />
@@ -23,6 +24,8 @@ function Components() {
       <Inquiry />
       <FAQ />    
       <FooterEnd />
+      {/* <Title  
+      /> */}
     </div>
   )
 }
