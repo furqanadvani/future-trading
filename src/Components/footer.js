@@ -56,13 +56,13 @@ const initialValues = {
                                 <img src={FooterLogo} alt="" className='main-logo' />
                                 <div className='parent-link'>
                                     <div className='facebook'>
-                                        <a href="*"><FontAwesomeIcon icon={faFacebookF} style={{ color: "#000000", }} /></a>
+                                        <a href="https://www.facebook.com/"><FontAwesomeIcon icon={faFacebookF} style={{ color: "#000000", }} /></a>
                                     </div>
                                     <div className='facebook'>
-                                        <a href="*"><FontAwesomeIcon icon={faInstagram} style={{ color: "#000000", }} /></a>
+                                        <a href="https://www.instagram.com/"><FontAwesomeIcon icon={faInstagram} style={{ color: "#000000", }} /></a>
                                     </div>
                                     <div className='facebook'>
-                                        <a href="*"><FontAwesomeIcon icon={faTwitter} style={{ color: "#000000", }} /></a>
+                                        <a href="https://twitter.com"><FontAwesomeIcon icon={faTwitter} style={{ color: "#000000", }} /></a>
                                     </div>
                                 </div>
                             </div>
@@ -79,9 +79,6 @@ const initialValues = {
                         </Col>
                         <Col lg={4}>
                         <Formik  validateOnChange={true}>
-
-
-
                             <div className='sub-footer-lable'>
                                 <ul>
                                     <li><h4>Subscribe to Newsletter</h4></li>
