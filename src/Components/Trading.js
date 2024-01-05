@@ -32,7 +32,7 @@ function Trading() {
 
 <div className='row justify-content-center' >
 
-<div className='col-md-4 col-lg-4 col-sm-12'>
+<div className='col-md-6 col-lg-6 col-12 col-sm-12'>
 
 
             <div class="monthly-card d-flex justify-content-center align-items-center">
